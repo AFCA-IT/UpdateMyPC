@@ -1,0 +1,1 @@
+reg add "HKLM\System\CurrentControlSet\Services\NetLogon\Parameters" /v MaximumPasswordAge /d 60 /t REG_DWORD /f
